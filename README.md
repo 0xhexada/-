@@ -50,7 +50,7 @@ utf8_string = hex_bytes.decode('utf-8')
 
 print(utf8_string)
 
-# omc.univ.kiev.ua/wp-content/in/me.jpg
+omc.univ.kiev.ua/wp-content/in/me.jpg
 ——————————————————————————————————————————————————————————————
 В ЦЬОМУ ЗОБРАЖЕННІ Є БІЛЬШЕ.
 НІЖ ЗДАЄТЬСЯ НА ПЕРШИЙ ПОГЛЯД. ЧИ МОЖЕТЕ ВИ
@@ -58,7 +58,7 @@ print(utf8_string)
 РОЗШИФРУВАТИ ПОСЛАННЯ
 ЗАХОВАНЕ ВСЕРЕДИНІ?
 ——————————————————————————————————————————————————————————————
-# машинний код зображення
+машинний код зображення
 
 #################################################################################################
 aHR0cHM6Ly90Lm1lLyt3T2dQeDM1Vm90Z3dPVFJp --- "I may look like gibberish, but if you decode me right, you'll find a message hidden out of sight." B64
@@ -112,8 +112,8 @@ utf8_text = base64_bytes.decode('utf-8')
 
 print(utf8_text)
 
-# https://t.me/+wOgPx35VotgwOTRi
-# посилання не працює
+https://t.me/+wOgPx35VotgwOTRi
+посилання не працює
 ——————————————————————————————————————————————————————————————
 source_text1 = "<pdf:Author>РђСЂС‚С‘Рј -_-</pdf:Author>\n"
 source_text2 = "<rdf:li xml:lang='x-default'>РљСЂРµРјРѕРІС‹Р№ Рё Р РѕР·РѕРІС‹Р№ РџР°СЃС‚РµР»СЊРЅС‹Р№ Р“СЂР°РґРёРµРЅС‚ Р Р°Р·РЅРѕРѕР±СЂР°Р·РёРµ РњР°СЃС‚РµСЂ-РєР»Р°СЃСЃ Р’РµР±РёРЅР°СЂ РџСЂРѕРіСЂР°РјРјРЅР°СЏ РїСЂРµР·РµРЅС‚Р°С†РёСЏ - 2</rdf:li>"
@@ -122,7 +122,7 @@ unicode_text2 = source_text2.encode('windows-1251').decode('utf-8')
 
 print(unicode_text1, unicode_text2)
 
-# <pdf:Author>Артём -_-</pdf:Author>
-# <rdf:li xml:lang='x-default'>Кремовый и Розовый Пастельный Градиент Разнообразие Мастер-класс Вебинар Программная презентация - 2</rdf:li>
+<pdf:Author>Артём -_-</pdf:Author>
+<rdf:li xml:lang='x-default'>Кремовый и Розовый Пастельный Градиент Разнообразие Мастер-класс Вебинар Программная презентация - 2</rdf:li>
 ——————————————————————————————————————————————————————————————
 https://www.metadata2go.com/result#j=e33820a4-66fe-412f-8a90-a6de8c0163df
